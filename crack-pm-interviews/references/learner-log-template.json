@@ -1,0 +1,100 @@
+{
+  "learner": "",
+  "last_updated": "",
+  "current_module": "Module 1: The PM Role & Mindset",
+  "sessions_completed": 0,
+  "target_companies": [],
+  "weak_areas": [],
+  "missing_questions": [],
+  "modules": {
+    "module_1_pm_role": {
+      "title": "The PM Role & Mindset",
+      "status": "not_started",
+      "lessons_completed": [],
+      "needs_refinement": [],
+      "practice_ready": false,
+      "notes": ""
+    },
+    "module_2_companies": {
+      "title": "Companies & Interview Styles",
+      "status": "not_started",
+      "lessons_completed": [],
+      "needs_refinement": [],
+      "practice_ready": false,
+      "notes": ""
+    },
+    "module_3_define_yourself": {
+      "title": "Define Yourself — Self-Definition Questions",
+      "status": "not_started",
+      "lessons_completed": [],
+      "needs_refinement": [],
+      "practice_ready": false,
+      "notes": ""
+    },
+    "module_4_behavioral_star": {
+      "title": "Behavioral Story Questions (STAR)",
+      "status": "not_started",
+      "lessons_completed": [],
+      "needs_refinement": [],
+      "practice_ready": false,
+      "notes": ""
+    },
+    "module_5_estimation": {
+      "title": "Estimation Questions",
+      "status": "not_started",
+      "lessons_completed": [],
+      "needs_refinement": [],
+      "practice_ready": false,
+      "notes": ""
+    },
+    "module_6_product_design": {
+      "title": "Product Design Questions",
+      "status": "not_started",
+      "lessons_completed": [],
+      "needs_refinement": [],
+      "practice_ready": false,
+      "notes": ""
+    },
+    "module_7_product_improve": {
+      "title": "Product Improvement & Favorite Product",
+      "status": "not_started",
+      "lessons_completed": [],
+      "needs_refinement": [],
+      "practice_ready": false,
+      "notes": ""
+    },
+    "module_8_case_frameworks": {
+      "title": "Case Questions & Business Frameworks",
+      "status": "not_started",
+      "lessons_completed": [],
+      "needs_refinement": [],
+      "practice_ready": false,
+      "notes": ""
+    },
+    "module_9_metrics": {
+      "title": "Metrics & Analytics",
+      "status": "not_started",
+      "lessons_completed": [],
+      "needs_refinement": [],
+      "practice_ready": false,
+      "notes": ""
+    },
+    "module_10_coding": {
+      "title": "Coding Questions for PMs",
+      "status": "not_started",
+      "lessons_completed": [],
+      "needs_refinement": [],
+      "practice_ready": false,
+      "notes": ""
+    },
+    "module_11_resume": {
+      "title": "Resume & Cover Letter Craft",
+      "status": "not_started",
+      "lessons_completed": [],
+      "needs_refinement": [],
+      "practice_ready": false,
+      "notes": ""
+    }
+  },
+  "session_history": []
+}
