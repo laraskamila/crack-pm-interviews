@@ -57,6 +57,13 @@ At the start of your first session, share the companies you're targeting. The sk
 
 Progress is saved to `~/crack-pm-interviews/learner-progress.json` by default. You can specify a different path in SKILL.md.
 
-## License
+## Attribution & Use
 
-MIT
+The curriculum content in this skill is a teaching aid derived from *Cracking the PM Interview* by Gayle Laakmann McDowell & Jackie Bavaro (Career Cup, 2013). All frameworks, chapter references, and interview strategies are attributed to that work.
+
+This repository contains no verbatim text from the book — only structured summaries and teaching notes. It is intended for personal, educational use to help individuals prepare for PM interviews.
+
+**If you find this useful, please buy the book.** It is the authoritative source and worth owning:
+[Cracking the PM Interview on Amazon](https://www.amazon.com/dp/0984782818)
+
+The skill code itself (SKILL.md, learner-log-template.json, and the Claude Code scaffolding) is released under the MIT License. See [NOTICE](NOTICE) for full attribution details.
