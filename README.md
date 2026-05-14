@@ -1,39 +1,61 @@
 # crack-pm-interviews
 
-A Claude Code skill that tutors you through PM interview preparation, based on *Cracking the PM Interview* by McDowell & Bavaro.
+A skill for [Claude Code](https://claude.ai/code) that tutors you through PM interview preparation, based on *Cracking the PM Interview* by McDowell & Bavaro.
 
-## What it does
+It teaches all 11 PM interview modules, tracks your progress across sessions, runs practice scenarios inline, and adapts to the specific companies you're interviewing at.
 
-- Teaches all 11 PM interview modules (PM role, behavioral, estimation, product design, metrics, and more)
-- Tracks your progress across sessions via a learner log
-- Runs Socratic checks and practice scenarios inline — no separate tool needed
-- Adapts to your target companies — share which companies you're interviewing at, and it focuses accordingly
+---
+
+## Prerequisites
+
+Before installing this skill, you need:
+
+1. **Claude Code** — download the desktop app at [claude.ai/code](https://claude.ai/code) or install the CLI:
+   ```bash
+   npm install -g @anthropic-ai/claude-code
+   ```
+
+2. **Node.js** — required to run the `npx` install command. Download at [nodejs.org](https://nodejs.org) if you don't have it.
+
+---
 
 ## Install
 
+Run this in your terminal:
+
 ```bash
-/install-skill https://github.com/laraskamila/crack-pm-interviews
+npx skills add https://github.com/laraskamila/crack-pm-interviews --skill crack-pm-interviews
 ```
 
-Or manually: clone this repo and add the `crack-pm-interviews/` folder to your Claude Code skills directory.
+That's it. The skill is now available in any Claude Code session.
+
+---
 
 ## Usage
 
-Start a session in Claude Code:
+Open Claude Code and type any of the following to get started:
 
 ```
 let's begin interview learning
 ```
-
-or
-
 ```
 I want to study estimation questions
 ```
+```
+teach me the STAR method
+```
+```
+what module should I study next
+```
+```
+help me understand product design questions
+```
 
-Claude will load your learner log (or create one on first run), orient to where you left off, and begin teaching.
+Claude will create a learner log on first run, then pick up from where you left off in every future session.
 
-## Curriculum
+---
+
+## What it covers
 
 | Module | Topic |
 |--------|-------|
@@ -49,13 +71,27 @@ Claude will load your learner log (or create one on first run), orient to where 
 | 10 | Coding Questions for PMs |
 | 11 | Resume & Cover Letter Craft |
 
-## Target Company Support
+Each module includes explanations, worked examples, Socratic checks, and live practice — all within the conversation.
 
-At the start of your first session, share the companies you're targeting. The skill will apply the Company Research Framework to those companies and help you build tailored rubrics for each interview.
+---
 
-## Learner Log
+## Target company support
 
-Progress is saved to `~/crack-pm-interviews/learner-progress.json` by default. You can specify a different path in SKILL.md.
+At the start of your first session, share the companies you're targeting. The skill will focus Module 2 on those companies and help you build a preparation rubric for each one.
+
+```
+I'm interviewing at Stripe and Figma for a PM role
+```
+
+---
+
+## Progress tracking
+
+Your progress is saved automatically to `~/crack-pm-interviews/learner-progress.json` after every session. When you come back, the skill reads this log and picks up where you left off — no need to repeat yourself.
+
+To use a different save location, update the log path in `~/.claude/skills/crack-pm-interviews/SKILL.md`.
+
+---
 
 ## Attribution & Use
 
